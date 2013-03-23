@@ -33,6 +33,6 @@ public class Problem_51 {
 
 		System.out.println("The result of inserting " + Integer.toBinaryString(M)
 			+ " to " + Integer.toBinaryString(N)
-			" is " + Integer.toBinaryString(result));
+			+ " is " + Integer.toBinaryString(result));
 	}
 }
