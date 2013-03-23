@@ -32,7 +32,8 @@ public class Problem_51 {
 		int result = (N & (~bitMask(j, i))) | (M << i);
 
 		System.out.println("The result of inserting " + Integer.toBinaryString(M)
-			+ " to " + Integer.toBinaryString(N)
+			+ " to " + Integer.toBinaryString(N) + " starts at bit " + j
+			+ " and ends at bit " + i
 			+ " is " + Integer.toBinaryString(result));
 	}
 }
