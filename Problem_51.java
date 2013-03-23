@@ -31,6 +31,8 @@ public class Problem_51 {
 		//Integer result = new Integer((N & (~bitMask(j, i))) | (M << i));
 		int result = (N & (~bitMask(j, i))) | (M << i);
 
-		System.out.println("The result is " + Integer.toBinaryString(result));
+		System.out.println("The result of inserting " + Integer.toBinaryString(M)
+			+ " to " + Integer.toBinaryString(N)
+			" is " + Integer.toBinaryString(result));
 	}
 }
