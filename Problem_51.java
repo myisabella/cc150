@@ -7,7 +7,7 @@
  * 
  */
 public class Problem_51 {
-  /**
+	/**
 	 * bitMask - Generate a mask consisting of all 1's from lowbit to highbit
 	 * 
 	 * @param highbit
