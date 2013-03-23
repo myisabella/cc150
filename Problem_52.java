@@ -8,7 +8,7 @@
  *
  */
 public class Problem_52 {
-  /**
+  	/**
 	 * printBinary - print binary representation of a real number
 	 * @param input
 	 * @return output
